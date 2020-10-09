@@ -57,7 +57,7 @@ ul {
     background-attachment: fixed;
 }
 .seccion {
-    padding-bottom: 2rem;
+    padding: 1rem;
 }
 
 /* Botones */
@@ -172,6 +172,11 @@ ul {
     .header {
         height: 75vh;
     }
+}
+
+/* Slideshow */
+.slide-img {
+    border-radius: 0%;
 }
 
 /* Navegación Principal */
