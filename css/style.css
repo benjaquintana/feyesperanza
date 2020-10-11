@@ -14,7 +14,6 @@ body {
 }
 img {
     width: 100%;
-    border-radius: 5rem;
 }
 .contenedor {
     width: 95%;
@@ -41,9 +40,11 @@ ul {
 
 /* Utilidades */
 :root {
-    --primario: rgb(233, 233, 233);
-    --secundario: #ffd900;
-    --secundarioOscuro: rgb(255, 153, 0);
+    --primario:rgb(20, 83, 81);
+    --primarioClaro: rgb(44, 188, 164);
+    --secundarioClaro:  rgb(220, 163, 21);
+    --secundario:  rgb(105, 42, 0);
+    --secundarioOscuro: rgb(63, 45, 0);
 }
 .parallax::before {
     width: 100%;
@@ -60,43 +61,57 @@ ul {
     padding: 1rem;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
 /* Botones */
 .boton {
     display: inline-block;
     color: #FFFFFF;
     padding: 1rem 2rem;
-    margin: 1rem 0;
+    margin: 0 0.1rem;
     text-decoration: none;
     position: relative;
     z-index: 1;
 }
 .boton_primario {
-    border: 3px solid #FFFFFF;   
-    border-radius: 5%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem 2rem;
     transition: all .5s;
+    background-color: var(--primario);
+    border-radius: 5%;
 }
 .boton_primario:hover {
-    background-color: var(--secundarioOscuro);
-    border: 3px solid var(--primario);
-    border-radius: 5%;
-    color: var(--primario)
+    background-color: var(--primarioClaro);
+    text-decoration: none;
+    color: #ffffff;
 }
 .boton_secundario {
     color: #ffffff;
     text-decoration: none;
-    font-size: 2.2rem;
-    display: block;
+    font-size: 1.6rem;
+    display: inline-block;
+    float: right;
     text-align: center;
-    padding: 1rem;
-    margin: 0;
-    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 1rem 2rem;
     transition: all .5s;
+    background-color: var(--secundarioOscuro);
+    border-radius: 5%;
 }
 .boton_secundario:hover {
-    background-color: var(--secundarioOscuro);
-    border: 3px solid var(--primario);
-    border-radius: 5%;
-    color: var(--primario)
+   background-color: var(--secundario);
+    text-decoration: none;
+    color: #ffffff;
 }
 @media (min-width: 768px) {
     .boton_secundario {
@@ -128,11 +143,11 @@ ul {
   position: absolute;
   top: 4.4rem;
   left: 0rem;
-  background-color: var(--secundario);
+  background-color: var(--primario);
   min-width: 30rem;
   box-shadow: 0 0.8 1.6rem 0 rgba(0,0,0,0.2);
   z-index: 2;
-  border: 1px solid var(--secundarioOscuro)
+  border: 1px solid var(--primarioClaro)
 }
 .dropdown_content a {
   float: none;
@@ -181,7 +196,7 @@ ul {
 
 /* Navegación Principal */
 .navegador {
-    background-color: var(--secundario);
+    background-color: var(--primario);
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -205,10 +220,8 @@ ul {
   }
 }
 .activo {
-    background-color: var(--secundarioOscuro);
-    border: 3px solid var(--primario);
-    border-radius: 5%;
-    color: var(--primario)
+    background-color: var(--primarioClaro);
+    
 }
 
 /*Menu Movil*/
@@ -239,6 +252,8 @@ div.menu_movil p {
     }
     .imagen_director {
         margin-right: 2rem;
+        margin-top: 1rem;
+        width: 100%;
     }
 }
 .mensaje_director {
