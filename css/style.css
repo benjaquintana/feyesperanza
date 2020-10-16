@@ -185,13 +185,14 @@ ul {
 }
 @media (min-width: 998px) {
     .header {
-        height: 75vh;
+        height: 90vh;
     }
 }
 
 /* Slideshow */
 .slide-img {
     border-radius: 0%;
+    height: 90vh;
 }
 
 /* Navegación Principal */
@@ -263,4 +264,39 @@ div.menu_movil p {
 }
 .texto_mensaje h3 {
     text-align: right;
+}
+
+/* Radio en Vivo */
+#video1 {
+   position: absolute;
+   width: 205px;
+   height: 154px;
+}
+
+/* Botones de la Radio */
+.video-controls {
+   position: absolute;
+   width: 50px;
+   height: 20px;
+   cursor: pointer;
+   background-color: #FFF;
+   border: 1px solid #000;
+}
+#play-btn {
+   left: 5px;
+}
+#pause-btn {
+   left: 5px;
+}
+#mute-btn {
+   left: 60px;
+}
+#unmute-btn {
+   left: 60px;
+}
+#stop-btn {
+   left: 115px;
+}
+#replay-btn {
+   left: 115px;
 }
