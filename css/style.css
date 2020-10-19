@@ -90,6 +90,12 @@ ul {
     transition: all .5s;
     background-color: var(--primario);
     border-radius: 5%;
+    width: 100%;
+}
+@media (min-width: 998px) {
+    .boton_primario {
+        width: auto;
+    }
 }
 .boton_primario:hover {
     background-color: var(--primarioClaro);
@@ -212,6 +218,9 @@ ul {
         display: block;
     }
 }
+.contenido_navegacion {
+    display: block;
+}
 @media (min-width: 998px) {
   .contenido_navegacion {
     display: flex;
@@ -267,10 +276,24 @@ div.menu_movil p {
 }
 
 /* Radio en Vivo */
+@media (min-width: 998px) {
+    .contenido_radio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.radio {
+    width: 100%;
+}
+@media (min-width: 998px) {
+    .radio {
+        width: calc(33% - 1rem);
+    }
+}
+
 #video1 {
-   position: absolute;
-   width: 205px;
-   height: 154px;
+   width: 100%;
 }
 
 /* Botones de la Radio */

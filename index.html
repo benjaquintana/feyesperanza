@@ -6,10 +6,10 @@
     <title>Fe y Esperanza</title>
     <link rel="shortcut icon" href="favicon.png" type="image/png">
 
-<!-- Bootstrap Stylesheet -->
+    <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-<!-- User Style -->  
+    <!-- User Style -->  
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -54,11 +54,11 @@
 
         <nav class="navegacion_principal">
             <ul class="contenido_navegacion">
-                <li>
-                    <a href="index.html" class="boton boton_primario activo"><i class="fas fa-home"></i> Inicio</a>
+                <li class="boton boton_primario activo">
+                    <a href="/" class="dropbtn"><i class="fas fa-home"></i> Inicio</a>
                 </li>
-                <li>
-                    <a href="404.html" class="boton boton_primario"><i class="far fa-address-card"></i> Sobre Nosotros</a>
+                <li class="boton boton_primario">
+                    <a href="404.html" class="dropbtn"><i class="far fa-address-card"></i> Sobre Nosotros</a>
                 </li>
                 <li class="boton boton_primario">
                     <a href="404.html" class="dropbtn"><i class="fas fa-microphone-alt"></i> Nuestros Programas</a>   
@@ -67,7 +67,9 @@
                 <li class="boton boton_primario">
                     <a href="manual.html" class="dropbtn"><i class="fas fa-donate"></i> Donaciones</a>
                 </li>
-                <li><a href="404.html" class="boton boton_primario"><i class="fas fa-cloud-download-alt"></i> Descargas</a></li>
+                <li class="boton boton_primario">
+                    <a href="404.html" class="dropbtn"><i class="fas fa-cloud-download-alt"></i> Descargas</a>
+                </li>
             </ul>        
         </nav>
     </div>
@@ -82,7 +84,7 @@
                 </picture>
                 <div class="texto_mensaje">
                     <p>Hola mi querido amigo, mi querida amiga que nos está visitando. Le doy la bienvenida a ésta página donde podrá encotrar todo lo que neceste para su crecimieto y desarrollo espiritual. Radio Fe y Esperanza es un Ministerio Cristiano Adventista del Séptimo Día. Para nosotros es una bendición servir a nuestro Padre Celestial y contar con una familia en la fe como usted. Nosotros por este medio queremos ayudar a preparar a las familias que formarán parte del pueblo que verá a Dios. Aquí podrá encontrar seminarios sobre profecía, sobre el santuario, sobre la familia, evangelismo y mucho más. ¡Que Dios te bendiga!</p>
-                    <h3>Joel Medina</h3>
+                    <h3>Pr. Joel Medina</h3>
                     <h3>Capellán y Evangelista</h3>                    
                 </div>
             </div>
@@ -93,11 +95,21 @@
     <section class="seccion">
         <div class="contenedor">
             <h2>Radio en Vivo</h2>
-            <div>
-                <video autoplay controls="controls" id="video1" loop poster="img/poster_radio.png">
-                    <source src="video/video_radio.mp4" type="video/mp4">
-                    <source src="video/video_radio.webm" type="video/webm">
-                </video>
+            <div class="contenido_radio">
+                <div class="radio">
+                    <video autoplay controls="controls" id="video1" loop poster="img/poster_radio.png">
+                        <source src="video/video_radio.mp4" type="video/mp4">
+                        <source src="video/video_radio.webm" type="video/webm">
+                    </video>
+                </div>
+                <div class="radio">
+                    <img src="img/poster_radio.png" alt="zeno_radio" title="Nuestra radio en Zeno">
+                    <audio controls="" src="https://stream.zenolive.com/3r0qwf652mzuv.aac" autoplay="" controlslist="nodownload" class="i-amphtml-fill-content"></audio>
+                </div>
+                <div class="radio">
+                    <img src="img/poster_radio.png" alt="mytuner_radio" title="Nuestra radio en My Tuner">
+                    <audio controls="" src="https://stream.zenolive.com/3r0qwf652mzuv.aac" autoplay="" controlslist="nodownload" class="i-amphtml-fill-content"></audio>
+                </div>
             </div>
         </div>
     </section>
@@ -122,6 +134,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- User Script -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>
