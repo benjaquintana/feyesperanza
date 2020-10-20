@@ -276,6 +276,18 @@ div.menu_movil p {
 }
 
 /* Radio en Vivo */
+.seccion_radio {
+    background: rgba(250,250,250,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(250,250,250,1) 0%, rgba(255,183,0,1) 26%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(250,250,250,1)), color-stop(26%, rgba(255,183,0,1)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(250,250,250,1) 0%, rgba(255,183,0,1) 26%, rgba(0,0,0,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(250,250,250,1) 0%, rgba(255,183,0,1) 26%, rgba(0,0,0,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(250,250,250,1) 0%, rgba(255,183,0,1) 26%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(250,250,250,1) 0%, rgba(255,183,0,1) 26%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#000000', GradientType=1 );
+    color: #FFFFFF;
+    padding-bottom: 5rem;
+}
 @media (min-width: 998px) {
     .contenido_radio {
         display: flex;
@@ -291,35 +303,49 @@ div.menu_movil p {
         width: calc(33% - 1rem);
     }
 }
-
+.estacion {
+    margin-top: 3rem;
+}
 #video1 {
    width: 100%;
 }
+.controls {
+    width: 100%;
+    margin-top: 0.5rem;
+}
 
-/* Botones de la Radio */
-.video-controls {
-   position: absolute;
-   width: 50px;
-   height: 20px;
-   cursor: pointer;
-   background-color: #FFF;
-   border: 1px solid #000;
+/* Parrallax Inicio */
+div.inicio {
+    position: relative;
+    height: auto;
 }
-#play-btn {
-   left: 5px;
+div.inicio::before {
+    background-image: url(../img/bg_inicio.jpg);
+    content: '';
+    filter: brightness(.8);
+    -webkit-filter: brightness(.8);
 }
-#pause-btn {
-   left: 5px;
+div.contenido_inicio {
+    position: relative;
+    padding: 12rem 0;
+    color: #FFFFFF;
 }
-#mute-btn {
-   left: 60px;
+div.contenido_inicio p {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2;
+    font-style: italic;
 }
-#unmute-btn {
-   left: 60px;
+div.contenido_inicio h3{
+    text-align: right;
 }
-#stop-btn {
-   left: 115px;
+
+/* Nuestros Canales */
+div.canales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-#replay-btn {
-   left: 115px;
+div.canal img{
+    border-radius: 100%;
 }

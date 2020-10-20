@@ -92,37 +92,74 @@
     </div>
     
     <!-- Escucha Nuestra Radio -->
-    <section class="seccion">
+    <section class="seccion seccion_radio">
         <div class="contenedor">
             <h2>Radio en Vivo</h2>
             <div class="contenido_radio">
                 <div class="radio">
-                    <video autoplay controls="controls" id="video1" loop poster="img/poster_radio.png">
+                    <video autoplay controls="controls" controlslist="nodownload" id="video1" poster="img/poster_radio.png">
                         <source src="video/video_radio.mp4" type="video/mp4">
                         <source src="video/video_radio.webm" type="video/webm">
                     </video>
                 </div>
-                <div class="radio">
-                    <img src="img/poster_radio.png" alt="zeno_radio" title="Nuestra radio en Zeno">
-                    <audio controls="" src="https://stream.zenolive.com/3r0qwf652mzuv.aac" autoplay="" controlslist="nodownload" class="i-amphtml-fill-content"></audio>
+                <div class="radio estacion">
+                    <a href="https://mytuner-radio.com/radio/radio-fe-y-esperanza-467976/" target="_blank">
+                        <img src="img/radio_app_4.png" alt="zeno_radio" title="Nuestra radio en Zeno">
+                    </a>
+                    <audio controls="" src="https://stream.zenolive.com/3r0qwf652mzuv.aac" controlslist="nodownload" class="controls"></audio>
                 </div>
-                <div class="radio">
-                    <img src="img/poster_radio.png" alt="mytuner_radio" title="Nuestra radio en My Tuner">
-                    <audio controls="" src="https://stream.zenolive.com/3r0qwf652mzuv.aac" autoplay="" controlslist="nodownload" class="i-amphtml-fill-content"></audio>
+                <div class="radio estacion">
+                    <a href="https://zeno.fm/radio-fe-y-esperanza-7/" target="_blank">
+                        <img src="img/radio_app_5.png" alt="mytuner_radio" title="Nuestra radio en My Tuner">
+                    </a>
+                    <audio controls="" src="https://stream.zenolive.com/3r0qwf652mzuv.aac" controlslist="nodownload" class="controls"></audio>
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="inicio parallax">
+        <div class="contenedor">
+            <div class="contenido_inicio">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugit eius, itaque illo at porro eum soluta assumenda, ex quos nihil tenetur laudantium quisquam, quo impedit! Culpa id hic esse!"</p>
+                <h3>Ellen G. White</h3>
+            </div>
+        </div>
+    </div>
+
     <!-- Canales de Youtube -->
     <section class="seccion">
         <div class="contenedor">
             <h2>Nuestros Canales</h2>
-            <div>
-                <iframe src="https://www.youtube.com/embed/tj3hydqny0I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>
-                <iframe src="https://www.youtube.com/embed/fBzN9KL1nCM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="canales">
+                <div class="canal">
+                    <img src="img/canal_escuela.jpg" alt="Escuela Sabática">
+                    <p>Escuela Sabática</p>
+                </div>
+                <div class="canal">
+                    <img src="img/canal_faby.jpg" alt="Escuela Sabática">
+                    <p>Faby Sirvent</p>
+                </div>
+                <div class="canal">
+                    <img src="img/canal_julio.jpg" alt="Escuela Sabática">
+                    <p>Julio Ávala</p>
+                </div>
+                <div class="canal">
+                    <img src="img/canal_conchita.jpg" alt="Escuela Sabática">
+                    <p>Fisico y Espiritual</p>
+                </div>
+                <div class="canal">
+                    <img src="img/canal_luis.jpg" alt="Escuela Sabática">
+                    <p>Luis Rivas</p>
+                </div>
+                <div class="canal">
+                    <img src="img/canal_silvia.jpg" alt="Escuela Sabática">
+                    <p>Silvia J. Rodríguez</p>
+                </div>
+                 <div class="canal">
+                    <img src="img/canal_sin_limites.jpg" alt="Escuela Sabática">
+                    <p>Sin Límites Con Cristo</p>
+                </div>
             </div>
         </div>
     </section>
