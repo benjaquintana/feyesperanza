@@ -175,19 +175,7 @@ ul {
 
 /* Header */
 .header {
-    display: none;
-    height: 57vh; (important!)
-}
-@media(min-width: 998px) {
-    .header {
-        display: block;
-    }
-    .header_movil {
-    display: none;
-}
-}
-.header_movil {
-    height: 90vh;
+    height: 57vh;
 }
 
 /* Slideshow */
