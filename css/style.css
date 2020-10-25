@@ -444,7 +444,7 @@ div.banner_canales {
 }
 @media (min-width: 768px) {
     .logo_footer {
-        width: 3rem;
+        width: 10rem;
     }
 }
 .redes a {
