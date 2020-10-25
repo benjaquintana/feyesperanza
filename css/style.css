@@ -442,9 +442,9 @@ div.banner_canales {
     width: 18rem;
     margin: 1rem 0;
 }
-@media (min-width: 375px) {
+@media (min-width: 768px) {
     .logo_footer {
-        width: 20rem;
+        width: 12rem;
     }
 }
 .redes a {
