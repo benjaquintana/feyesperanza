@@ -176,10 +176,7 @@ ul {
 /* Header */
 .header {
     display: none;
-    height: 90vh;
-}
-.header_movil {
-    height: 90vh;
+    height: 57vh; (important!)
 }
 @media(min-width: 998px) {
     .header {
@@ -189,11 +186,14 @@ ul {
     display: none;
 }
 }
+.header_movil {
+    height: 90vh;
+}
 
 /* Slideshow */
 .slide-img {
     border-radius: 0%;
-    height: 90vh;
+    height: auto;
 }
 .carousel-inner {
     background-color: #000000;
