@@ -425,12 +425,12 @@ div.banner_canales {
     margin-top: 2rem
 }
 @media (min-width: 768px) {
-   .conexion {
+   .conexiones {
        grid-template-columns: repeat(4, 1fr);
    } 
 }
 @media (min-width: 998px) {
-   .conexion {
+   .conexiones {
        grid-template-columns: repeat(8, 1fr);
    } 
 }    
