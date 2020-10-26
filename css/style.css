@@ -466,10 +466,7 @@ div.banner_canales {
 }
 .copyright {
     text-align: center;
-    width: 100%;
     background-color: var(--primrioOscuro);
-    padding: 0.3rem;
-    margin: 0;
     color: #F7F7F7;
 }
 .copyright p {
