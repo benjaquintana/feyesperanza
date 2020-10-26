@@ -417,9 +417,28 @@ div.banner_canales {
     } 
 }
 
+/* Unete a nosotros */
+.conexiones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem
+}
+@media (min-width: 768px) {
+   .conexion {
+       grid-template-columns: repeat(4, 1fr);
+   } 
+}
+@media (min-width: 998px) {
+   .conexion {
+       grid-template-columns: repeat(8, 1fr);
+   } 
+}    
+
+
 /* Footer */
 .footer {
-    background-color: var(--secundario);
+    background-color: var(--primario);
 }
 .contenido_footer {
     display: flex;
@@ -448,7 +467,7 @@ div.banner_canales {
 .copyright {
     text-align: center;
     width: 100%;
-    background-color: var(--secundarioOscuro);
+    background-color: var(--primrioOscuro);
     padding: 0.3rem;
     margin: 0;
     color: #F7F7F7;
