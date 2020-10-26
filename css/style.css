@@ -421,7 +421,7 @@ div.banner_canales {
 .conexiones {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 5rem;
     margin-top: 2rem
 }
 @media (min-width: 768px) {
@@ -466,6 +466,7 @@ div.banner_canales {
 }
 .copyright {
     text-align: center;
+    padding-top: 1rem;
     background-color: var(--primrioOscuro);
     color: #F7F7F7;
 }
