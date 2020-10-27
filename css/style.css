@@ -422,7 +422,9 @@ div.banner_canales {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5rem;
-    margin-top: 2rem
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #FFFFFF;
 }
 @media (min-width: 768px) {
    .conexiones {
