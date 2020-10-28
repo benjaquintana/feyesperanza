@@ -445,8 +445,7 @@ div.banner_canales {
 .footer {
     background-color: var(--primario);
 }
-.contenido_footer {
-    display: block;
+.contenido_footer div {
     justify-content: center;
     align-items: center;
 }
