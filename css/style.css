@@ -181,10 +181,12 @@ ul {
 /* Slideshow */
 .slide-img {
     border-radius: 0%;
+    max-heigth: 26rem;
     height: auto;
 }
 .carousel-inner {
     background-color: #000000;
+    max-heigth: 26rem;
 }
 
 /* Navegación Principal */
