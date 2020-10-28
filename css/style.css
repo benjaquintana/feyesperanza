@@ -419,13 +419,15 @@ div.banner_canales {
 }
 
 /* Unete a nosotros */
+.contenedor_conexiones {
+    background-color: #FFFFFF;
+}
 .conexiones {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-color: #FFFFFF;
 }
 @media (min-width: 768px) {
    .conexiones {
