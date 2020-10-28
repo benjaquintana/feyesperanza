@@ -181,8 +181,7 @@ ul {
 /* Slideshow */
 .slide-img {
     border-radius: 0%;
-    max-heigth: 26rem;
-    height: auto;
+    height: 26rem;
 }
 .carousel-inner {
     background-color: #000000;
