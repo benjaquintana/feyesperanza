@@ -444,7 +444,12 @@ div.banner_canales {
 /* Footer */
 .footer {
     background-color: var(--primario);
-    padding-bottom: 2rem;
+    padding: 1rem;
+}
+@media (min-width: 768px) {
+    .footer {
+        padding: 0;
+    }
 }
 .contenido_footer div {
     margin: 0 auto;
