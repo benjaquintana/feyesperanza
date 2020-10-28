@@ -444,6 +444,7 @@ div.banner_canales {
 /* Footer */
 .footer {
     background-color: var(--primario);
+    padding-bottom: 2rem;
 }
 .contenido_footer div {
     margin: 0 auto;
