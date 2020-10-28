@@ -446,9 +446,16 @@ div.banner_canales {
     background-color: var(--primario);
 }
 .contenido_footer {
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    justify-content: center;
     align-items: center;
+}
+@media (min-width: 768px) {
+    .contenido_footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .logo_footer {
     width: 5rem;
