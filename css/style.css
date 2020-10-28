@@ -446,8 +446,7 @@ div.banner_canales {
     background-color: var(--primario);
 }
 .contenido_footer div {
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
 }
 @media (min-width: 768px) {
     .contenido_footer {
