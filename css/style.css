@@ -337,12 +337,13 @@ div.contenido_inicio {
 }
 div.contenido_inicio p {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     line-height: 2;
     font-style: italic;
 }
 div.contenido_inicio h3{
     text-align: right;
+    font-size: 2.5rem;
 }
 
 /* Nuestros Canales */
