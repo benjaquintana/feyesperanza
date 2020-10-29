@@ -340,12 +340,10 @@ div.contenido_inicio p {
     font-size: 3rem;
     line-height: 2;
     font-style: italic;
-    color: var(--secundarioClaro);
 }
 div.contenido_inicio h3{
     text-align: right;
     font-size: 2.5rem;
-    color: var(--secundarioClaro);
 }
 
 /* Nuestros Canales */
