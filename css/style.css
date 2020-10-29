@@ -325,7 +325,7 @@ div.inicio {
     height: auto;
 }
 div.inicio::before {
-    background-image: url(../img/bg_inicio.jpg);
+    background-image: url(../img/bg_inicio1.jpg);
     content: '';
     filter: brightness(.6);
     -webkit-filter: brightness(.6);
