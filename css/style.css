@@ -465,6 +465,7 @@ div.banner_canales {
 .logo_footer {
     width: 5rem;
     margin: 1rem 0;
+    padding: 1rem;
 }
 @media (min-width: 768px) {
     .logo_footer {
@@ -497,4 +498,5 @@ div.banner_canales {
 }
 .copyright p {
     font-size: 1.8rem;
+    padding: 1rem;
 }
