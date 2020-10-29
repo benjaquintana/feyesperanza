@@ -345,6 +345,7 @@ div.contenido_inicio p {
 div.contenido_inicio h3{
     text-align: right;
     font-size: 2.5rem;
+    color: var(--secundarioClaro);
 }
 
 /* Nuestros Canales */
