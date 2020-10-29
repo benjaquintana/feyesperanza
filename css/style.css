@@ -327,8 +327,8 @@ div.inicio {
 div.inicio::before {
     background-image: url(../img/bg_inicio.jpg);
     content: '';
-    filter: brightness(.8);
-    -webkit-filter: brightness(.8);
+    filter: brightness(.6);
+    -webkit-filter: brightness(.6);
 }
 div.contenido_inicio {
     position: relative;
@@ -340,6 +340,7 @@ div.contenido_inicio p {
     font-size: 3rem;
     line-height: 2;
     font-style: italic;
+    color: #FCEB00;
 }
 div.contenido_inicio h3{
     text-align: right;
