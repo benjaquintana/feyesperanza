@@ -9,6 +9,8 @@ $(function(){
         Enabler.loadModule(studio.module.ModuleId.VIDEO, function() {
         studio.video.Reporter.attach('video_index', video1);
         });
+    var v = document.getElementsById('video_index')[0];
+        v.play();
 });
 
 
