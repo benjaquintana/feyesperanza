@@ -544,7 +544,7 @@ div.programa_evento {
 }
 @media (min-width: 992px) {
   div.programa_evento {
-    width: 50%;
+    width: 100%;
   }
 }
 nav.menu_programa {
@@ -573,6 +573,9 @@ nav.menu_programa a {
   nav.menu_programa a {
     display: table-cell;
   }
+}
+.activo {
+   display: block;
 }
 nav.menu_programa a.activo::after{
   position: absolute;
