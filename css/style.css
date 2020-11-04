@@ -510,10 +510,11 @@ div.banner_canales {
     margin:0 auto;
     background_color: #FFFFFF;
 }
-.contenido_nuestro_ministerio video {
+.contenido_nuestro_ministerio {
     margin: 0 auto;
+}
+.contenido_nuestro_ministerio video {
     height: 40rem;
-    max-width: 100%;
 }
 
 /* Doctrinas */
