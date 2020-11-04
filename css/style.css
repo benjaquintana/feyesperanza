@@ -503,15 +503,13 @@ div.banner_canales {
     padding: 1rem;
 }
 
-/* Páginas Internas */
-/* Sobre Nosotros */
+/*********************************** Páginas Internas ************************************/
+/************* Sobre Nosotros *****************/
 /* Video Nuestro Ministerio */
 .nuestro_ministerio {
     margin:0 auto;
     background_color: #FFFFFF;
-    border-radius: 5%;
-    border-bottom: 1px solid var(--secundarioOscuro);
-    border-rigth: 1px solid var(--secundarioOscuro);
+    
 }
 .contenido_nuestro_ministerio {
     margin: 0 auto;
