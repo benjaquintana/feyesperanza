@@ -507,10 +507,11 @@ div.banner_canales {
 /************* Sobre Nosotros *****************/
 /* Video Nuestro Ministerio */
 .nuestro_ministerio {
-    margin:0 auto;
+    justify-content: center;
     background_color: #FFFFFF;
 }
 .contenido_nuestro_ministerio {
+    justify-content: center;
     margin: 0 auto;
 }
 .contenido_nuestro_ministerio video {
