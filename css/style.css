@@ -502,3 +502,101 @@ div.banner_canales {
     font-size: 1.8rem;
     padding: 1rem;
 }
+
+/* Páginas Internas */
+/* Sobre Nosotros */
+* Doctrinas */
+section.programa {
+  position: relative;
+}
+div.contenedor_video {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+div.contenido_programa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+}
+div.programa_evento {
+  background-color: rgba(253, 198, 59, 0.5);
+  padding: 1.5rem;
+  margin-top: 8rem;
+}
+@media (min-width: 768px) {
+  div.programa_evento {
+    width: 70%;
+  }
+}
+@media (min-width: 992px) {
+  div.programa_evento {
+    width: 50%;
+  }
+}
+nav.menu_programa {
+  width: 25%;
+  display: flex;
+}
+@media (min-width: 768px) {
+  nav.menu_programa {
+    display: table;
+    width: 100%;
+  }
+}
+nav.menu_programa a {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.2em;
+  position: relative;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  border-bottom: 1px solid var(--secundarioOscuro);
+}
+@media (min-width: 768px) {
+  nav.menu_programa a {
+    display: table-cell;
+  }
+}
+nav.menu_programa a.activo::after{
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2rem;
+  width: 3rem;
+  background-image: url(../img/talleres-flecha.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  bottom: -2rem;
+}
+
+nav.menu_programa a i,
+div.detalle_evento p i {
+  color: var(--secundarioOscuro);
+  font-size: 2rem;
+  margin: 0 .3rem 0 .5rem;
+}
+
+@media (min-width: 768px){
+  nav.menu_programa a i,
+  div.detalle_evento p i {
+    color: var(--secundarioOscuro);
+    font-size: 3.8rem;
+    margin-right: .5rem;
+  }
+}
+.detalle_evento {
+  padding-top: 2rem;
+}
+div.ocultar {
+  display: none;
+}
+
