@@ -1,5 +1,5 @@
 $(function(){
-    
+    alert("funciona");
     //Menu Responsive
     $('.menu_movil').on('click', function() {
       $('.navegacion_principal').slideToggle();
@@ -11,8 +11,9 @@ $(function(){
         studio.video.Reporter.attach('video_index', video1);
         });
 });
+
 $(function() {
-    alert("funciona");
+    
     //Página Sobre Nosotros
     //Doctrinas
     $('.programa_evento .info_curso:first').show();
@@ -24,4 +25,5 @@ $(function() {
         var enlace=$(this).attr('href');
         $(enlace).fadeIn(1000);
         return(false);
+    });
 });
