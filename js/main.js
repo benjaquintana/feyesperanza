@@ -13,17 +13,14 @@ $(function(){
 });
 
 $(function() {
-    alert("funciona");
+   
     //Página Sobre Nosotros
     //Doctrinas
-    $('.programa_evento .info_curso:first').show();
-    $('.menu_programa a:first').addClass('activo');
+   
+    
     $('.menu_programa a').on('click', function() {
-        $('.menu_programa a').removeClass('activo');
-        $(this).addClass('activo');
-        $('.ocultar').hide();
-        var enlace=$(this).attr('href');
-        $(enlace).fadeIn(1000);
-        return(false);
+        
+        var enlace = $(this).attr('href');
+        consol.log(enlace);
     });
 });
