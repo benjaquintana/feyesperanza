@@ -584,7 +584,7 @@ nav.menu_doctrinas a.activo::after{
   margin-right: auto;
   height: 2rem;
   width: 3rem;
-  background-image: url(../img/talleres-flecha.png);
+  background-image: url(../img/flecha_ministerio.png);
   background-position: top center;
   background-repeat: no-repeat;
   bottom: -2rem;
