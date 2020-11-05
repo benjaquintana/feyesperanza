@@ -568,7 +568,7 @@ nav.menu_doctrinas a {
   position: relative;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  border-bottom: 3px solid var(--secundarioOscuro);
+  border-bottom: 2px solid var(--secundarioOscuro);
 }
 @media (min-width: 768px) {
   nav.menu_doctrinas a {
