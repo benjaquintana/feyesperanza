@@ -517,14 +517,14 @@ div.banner_canales {
 }
 
 /* Doctrinas */
-section.seccion_doctrina {
+section.creencias {
   position: relative;
 }
-div.contenedor_video {
+div.video_creencias {
   max-width: 100%;
   overflow-x: hidden;
 }
-div.contenido_doctrina {
+div.contenido_creencias {
   position: absolute;
   top: 0;
   left: 0;
@@ -532,18 +532,18 @@ div.contenido_doctrina {
   width: 100%;
   color: #ffffff;
 }
-div.doctrinas {
+div.creencias {
   background-color: rgba(253, 198, 59, 0.5);
   padding: 1.5rem;
   margin-top: 8rem;
 }
 @media (min-width: 768px) {
-  div.doctrinas {
+  div.creencias {
     width: 70%;
   }
 }
 @media (min-width: 992px) {
-  div.doctrinas {
+  div.creencias {
     width: 100%;
   }
 }
@@ -574,9 +574,6 @@ nav.menu_doctrinas a {
   nav.menu_doctrinas a {
     display: table-cell;
   }
-}
-.activo {
-   display: block;
 }
 nav.menu_doctrinas a.activo::after{
   position: absolute;
