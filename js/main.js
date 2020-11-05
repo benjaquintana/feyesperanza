@@ -10,7 +10,7 @@ $(function(){
    
     //Página Sobre Nosotros
     //Doctrinas
-   $('.creencias .info.creencia:first').show();
+   $('.creencias .info_creencia:first').show();
    $('.menu_doctrinas a').on('click', function() {
         var enlace = $(this).attr('href');
         console.log(enlace);
