@@ -12,7 +12,9 @@ $(function(){
     //Doctrinas
    $('.creencias .info_creencia:first').show();
    $('.menu_doctrinas a').on('click', function() {
-        var enlace = $(this).attr('href');
-        console.log(enlace);
+       $('.ocultar').hide();
+       var enlace = $(this).attr('href');
+       $(enlace).fadeIn(1000);
+       return false;
     });
 });
