@@ -1,5 +1,5 @@
 $(function(){
-    alert("funciona");
+    
     //Menu Responsive
     $('.menu_movil').on('click', function() {
       $('.navegacion_principal').slideToggle();
@@ -13,7 +13,7 @@ $(function(){
 });
 
 $(function() {
-    
+    alert("funciona");
     //Página Sobre Nosotros
     //Doctrinas
     $('.programa_evento .info_curso:first').show();
