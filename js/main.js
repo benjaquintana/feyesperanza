@@ -4,6 +4,7 @@ $(function(){
     $('.menu_movil').on('click', function() {
       $('.navegacion_principal').slideToggle();
     });
+});
 
 $(function(){
    
