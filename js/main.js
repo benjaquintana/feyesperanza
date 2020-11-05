@@ -5,13 +5,13 @@ $(function(){
       $('.navegacion_principal').slideToggle();
     });
 
-$(function() {
+$(function(){
    
     //Página Sobre Nosotros
     //Doctrinas
    
     $('.menu_doctrina a').on('click', function() {
         var enlace = $(this).attr('href');
-        consol.log(enlace);
+        console.log(enlace);
     });
 });
