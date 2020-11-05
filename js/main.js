@@ -17,9 +17,7 @@ $(function() {
     //Página Sobre Nosotros
     //Doctrinas
    
-    
-    $('.menu_programa a').on('click', function() {
-        
+    $('.menu_doctrina a').on('click', function() {
         var enlace = $(this).attr('href');
         consol.log(enlace);
     });
