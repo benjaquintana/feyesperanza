@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
     
     //Menu Responsive
     $('.menu_movil').on('click', function() {
@@ -6,12 +6,14 @@ $(function(){
     });
 });
 
-$(function(){
-   
-    //Página Sobre Nosotros
-    //Doctrinas
+//Página Sobre Nosotros
+$(function() {
+    
+   //Doctrinas
    $('.creencias .info_creencia:first').show();
+   $('.menu_doctrinas a:first').addClass('activo');
    $('.menu_doctrinas a').on('click', function() {
+       $(this).addClass('activo');
        $('.ocultar').hide();
        var enlace = $(this).attr('href');
        $(enlace).fadeIn(1000);
