@@ -115,7 +115,7 @@ ul {
     border-radius: 5%;
 }
 .boton_secundario:hover {
-   background-color: var(--secundario);
+    background-color: var(--secundario);
     text-decoration: none;
     color: #ffffff;
 }
@@ -547,6 +547,7 @@ div.creencias {
     width: 100%;
   }
 }
+/* Menu Doctrinas */
 nav.menu_doctrinas {
   display: flex;
   width: 100%;
@@ -566,8 +567,7 @@ nav.menu_doctrinas a {
   margin-bottom: 1rem;
   font-size: 1.2em;
   position: relative;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
+  padding: 1rem;
   border-bottom: 2px solid var(--secundarioOscuro);
 }
 @media (min-width: 768px) {
@@ -575,40 +575,80 @@ nav.menu_doctrinas a {
     display: table-cell;
   }
 }
-nav.menu_doctrinas a.activo::after{
-  position: absolute;
-  content: '';
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  height: 2rem;
-  width: 3rem;
-  background-image: url(../img/flecha_ministerio.png);
-  background-position: top center;
-  background-repeat: no-repeat;
-  bottom: -2rem;
-}
-
-nav.menu_doctrinas a i,
-div.detalle_evento p i {
+nav.menu_doctrinas a i {
   color: var(--secundarioOscuro);
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 .3rem 0 .5rem;
 }
 
 @media (min-width: 768px){
-  nav.menu_doctrinas a i,
-  div.detalle_evento p i {
+  nav.menu_doctrinas a i {
     color: var(--secundarioOscuro);
     font-size: 3.8rem;
     margin-right: .5rem;
   }
 }
+/* Menu Creencias */
+nav.menu_creencias {
+  display: flex;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  nav.menu_creencias {
+    display: table;
+    width: 100%;
+  }
+}
+nav.menu_creencias a {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.2em;
+  position: relative;
+  padding: 1rem;
+  border-bottom: 2px solid var(--secundarioOscuro);
+}
+@media (min-width: 768px) {
+  nav.menu_creencias a {
+    display: table-cell;
+  }
+}
+nav.menu_creencias a i {
+  color: var(--secundarioOscuro);
+  font-size: 1.5rem;
+  margin: 0 .3rem 0 .5rem;
+}
+
+@media (min-width: 768px){
+  nav.menu_creencias a i {
+    color: var(--secundarioOscuro);
+    font-size: 3.8rem;
+    margin-right: .5rem;
+  }
+}
+
 .detalle_evento {
   padding-top: 2rem;
 }
-div.ocultar {
+.activo_doctrina {
+    border-radius: 3%;
+    background-color: var(--secundarioOscuro);
+    color: #FFFFFF;
+}
+.activo_doctrina i{
+    color: #FFFFFF !important;
+}
+.activo_creencia {
+    border-radius: 3%;
+    background-color: var(--secundarioOscuro);
+    color: #FFFFFF;
+}
+div.ocultar_creencias {
   display: none;
 }
-
+div.ocultar_creencia {
+  display: none;
+}

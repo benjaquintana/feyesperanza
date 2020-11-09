@@ -1,5 +1,4 @@
 $(function() {
-    
     //Menu Responsive
     $('.menu_movil').on('click', function() {
       $('.navegacion_principal').slideToggle();
@@ -7,17 +6,32 @@ $(function() {
 });
 
 //Página Sobre Nosotros
+
+//Menu Doctrinas
+$(function() { 
+   
+    $('.creencias .menu_creencia:first').show();
+    $('.menu_doctrinas a:first').addClass('activo_doctrina');
+    $('.menu_doctrinas a').on('click', function() {
+        $('.menu_doctrinas a').removeClass('activo_doctrina');
+        $(this).addClass('activo_doctrina');
+        $('.ocultar_creencias').hide();
+        var enlace = $(this).attr('href');
+        $(enlace).fadeIn(1000);
+        return false;
+    });
+});
+
+//Menu Creencias
 $(function() {
-    
-   //Doctrinas
-   $('.creencias .info_creencia:first').show();
-   $('.menu_doctrinas a:first').addClass('activo');
-   $('.menu_doctrinas a').on('click', function() {
-       $('.menu_doctrinas a').removeClass('activo');
-       $(this).addClass('activo');
-       $('.ocultar').hide();
-       var enlace = $(this).attr('href');
-       $(enlace).fadeIn(1000);
-       return false;
+    $('.menu_creencia .info_creencia:first').show();
+    $('.menu_creencia a:first').addClass('activo_creencia');
+    $('.menu_creencia a').on('click', function() {
+        $('.menu_creencias a').removeClass('activo_creencia');
+        $(this).addClass('activo_creencia');
+        $('.ocultar_creencia').hide();
+        var enlace = $(this).attr('href');
+        $(enlace).fadeIn(1000);
+        return false;
     });
 });
