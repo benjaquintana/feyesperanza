@@ -18,6 +18,7 @@ $(function() {
         $('.ocultar_creencias').hide();
         var enlace = $(this).attr('href');
         $(enlace).fadeIn(1000);
+        $(enlace + ' a:first').click();
         return false;
     });
 });
