@@ -516,6 +516,183 @@ div.banner_canales {
     height: 40rem;
 }
 
+/* Nuestro Equipo */
+.seccion_equipo {
+    padding: 5rem 0;
+    height: 200rem;
+}
+.seccion_equipo h2 {
+    border-bottom: none;
+    color: var(--primarioClaro);
+    margin-left: 10rem;
+    font-size: 3.5rem;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transform: skewY(-10deg);
+    padding-top: 7rem;
+}
+.container .card {
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    background-color: #FFFFFF;
+    transition: 0.5s;
+    margin-bottom: 5rem;
+}
+.container .card::before {
+    content: '';
+    position: absolute;
+    top: -1.5rem;
+    left: 0;
+    width: 100%;
+    height: 1.5rem;
+    background-color: var(--primario);
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+}   
+.container .card::after {
+    content: '';
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+    width: 1.5rem;
+    height: 100%;
+    background-color: var(--primario);
+    transform-origin: left;
+    transform: skewY(45deg);
+    transition: 0.5s;
+    border-bottom: 10rem solid #d9d9d9;
+}
+.container .card:hover {
+    transform: translateY(-4rem);
+}
+.container .card .imgBx {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--primarioClaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .card .imgBx img {
+    max-width: 12rem;
+}
+.container .card .imgBx h3 {
+    position: relative;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+.container .card .content {
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    padding: 2rem;
+    color: #777;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.container .card .content::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40rem;
+    background: linear-gradient(transparent, transparent, rgba(0,0,0,0.1));
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: -1;
+}
+.container .card:hover .content::before {
+    transform: translateY(4rem) skewX(45deg);
+    filter: blur(0.5rem);
+    opacity: 0.5;
+}
+.container .card:nth-child(1) {
+    z-index: 25;
+}
+.container .card:nth-child(2) {
+    z-index: 24;
+}
+.container .card:nth-child(3) {
+    z-index: 23;
+}
+.container .card:nth-child(4) {
+    z-index: 22;
+}
+.container .card:nth-child(5) {
+    z-index: 21;
+}
+.container .card:nth-child(6) {
+    z-index: 20;
+}
+.container .card:nth-child(7) {
+    z-index: 19;
+}
+.container .card:nth-child(8) {
+    z-index: 18;
+}
+.container .card:nth-child(9) {
+    z-index: 17;
+}
+.container .card:nth-child(10) {
+    z-index: 16;
+}
+.container .card:nth-child(11) {
+    z-index: 15;
+}
+.container .card:nth-child(12) {
+    z-index: 14;
+}
+.container .card:nth-child(13) {
+    z-index: 13;
+}
+.container .card:nth-child(14) {
+    z-index: 12;
+}
+.container .card:nth-child(15) {
+    z-index: 11;
+}
+.container .card:nth-child(16) {
+    z-index: 10;
+}
+.container .card:nth-child(17) {
+    z-index: 9;
+}
+.container .card:nth-child(18) {
+    z-index: 8;
+}
+.container .card:nth-child(19) {
+    z-index: 7;
+}
+.container .card:nth-child(20) {
+    z-index: 6;
+}
+.container .card:nth-child(21) {
+    z-index: 5;
+}
+.container .card:nth-child(22) {
+    z-index: 4;
+}
+.container .card:nth-child(23) {
+    z-index: 3;
+}
+.container .card:nth-child(24) {
+    z-index: 2;
+}
+.container .card:nth-child(25) {
+    z-index: 1;
+}
+
 /* Doctrinas */
 section.creencias {
   position: relative;
@@ -629,7 +806,6 @@ nav.menu_creencias a i {
     margin-right: .5rem;
   }
 }
-
 .detalle_evento {
   padding-top: 2rem;
 }
